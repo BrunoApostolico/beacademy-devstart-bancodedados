@@ -10,10 +10,17 @@ CREATE TABLE tb_category (
 );
 
 CREATE TABLE tb_product (
-    nome VARCHAR (30),
-    categoria VARCHAR (30),
-    preco FLOAT (5,2)
+    id INT(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR (30) NOT NULL ,
+    description VARCHAR (30) NOT NULL ,
+    photo VARCHAR(255) NOT NULL ,
+    valor FLOAT (5,2) NOT NULL ,
+    category_id INT(11) NOT NULL,
+    quantity INT(5) NOT NULL,
+    created_at DATETIME NOT NULL
 );
+
+DESC tb_product;
 
 INSERT INTO tb_category (name, description) VALUES
 ('Informatica','Produtos de Informatica e acessórios para computador'),
