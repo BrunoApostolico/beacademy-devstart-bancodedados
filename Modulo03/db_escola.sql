@@ -17,6 +17,17 @@
         cpf CHAR(11) NOT NULL,
         matricula CHAR(11) NOT NULL
     );
+
+-- inserir dados --
+    INSERT INTO tb_professor (nome, email, cpf)
+    VALUES ('Bruno','bruno@email.com','12312312312');
+
+    INSERT INTO tb_professor (nome, email, cpf)
+    VALUES ('Alessandro','ale@email.com','12312312312');
+
+-- selecionar dados --
+SELECT * FROM tb_professor;
+
 -- Mostrar bancos --
 SHOW DATABASES;
 -- Mostrar tabelas --
