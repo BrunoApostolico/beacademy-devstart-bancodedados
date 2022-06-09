@@ -2,11 +2,9 @@
 
 include '../vendor/autoload.php';
 
-$database = 'db_store';
-$username = 'root';
-$password = '12345';
+use App\Connection\Connection;
 
-$connection = new PDO('mysql:host=localhost;dbname='.$database, $username, $password);
+$connection = Connection::getConnection();
 
 $query = 'SELECT * FROM tb_category;';
 

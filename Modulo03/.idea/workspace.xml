@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94354aab-ae4b-4631-9acc-e553bb450cfc" name="Changes" comment="Cadastro de Produtos em desenvolvimento" />
+    <list default="true" id="94354aab-ae4b-4631-9acc-e553bb450cfc" name="Changes" comment="Cadastro de Produtos em desenvolvimento">
+      <change afterPath="$PROJECT_DIR$/projeto-final/src/Connection/Connection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projeto-final/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/projeto-final/public/index.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,7 +66,7 @@
       <workItem from="1654611769952" duration="9956000" />
       <workItem from="1654624329094" duration="2592000" />
       <workItem from="1654639506727" duration="52000" />
-      <workItem from="1654775119215" duration="1513000" />
+      <workItem from="1654775119215" duration="4027000" />
     </task>
     <task id="LOCAL-00001" summary="Introdução a Banco de Dados">
       <created>1654613828543</created>
