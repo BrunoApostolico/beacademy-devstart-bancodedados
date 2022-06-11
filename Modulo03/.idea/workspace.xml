@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62c2d80e-71b7-4a26-93ce-48cbd8507053" name="Changes" comment="Cadastrar Dados Categorias">
+    <list default="true" id="62c2d80e-71b7-4a26-93ce-48cbd8507053" name="Changes" comment="Ajuste acentuação utf8">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b8ca8834-3222-4684-a5e3-071b10b6d3db.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b8ca8834-3222-4684-a5e3-071b10b6d3db.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto-final/src/Connection/Connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/projeto-final/src/Connection/Connection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projeto-final/config/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/projeto-final/config/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projeto-final/src/Controller/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/projeto-final/src/Controller/CategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projeto-final/src/View/category/list.php" beforeDir="false" afterPath="$PROJECT_DIR$/projeto-final/src/View/category/list.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +61,8 @@
       <workItem from="1654740961893" duration="2029000" />
       <workItem from="1654908801911" duration="2635000" />
       <workItem from="1654911519608" duration="350000" />
-      <workItem from="1654912362249" duration="6489000" />
+      <workItem from="1654912362249" duration="6587000" />
+      <workItem from="1654948674886" duration="2698000" />
     </task>
     <task id="LOCAL-00001" summary="Dados dos Produtos">
       <created>1654658186123</created>
@@ -88,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654921519650</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Ajuste acentuação utf8">
+      <created>1654922356502</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1654922356502</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +121,7 @@
     <MESSAGE value="Query de Produtos ok" />
     <MESSAGE value="Listar Dados Categorias" />
     <MESSAGE value="Cadastrar Dados Categorias" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cadastrar Dados Categorias" />
+    <MESSAGE value="Ajuste acentuação utf8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajuste acentuação utf8" />
   </component>
 </project>
