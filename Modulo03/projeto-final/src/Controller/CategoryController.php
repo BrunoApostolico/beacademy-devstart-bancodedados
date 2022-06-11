@@ -10,14 +10,15 @@ class CategoryController extends AbstractController
 {
     public function listAction(): void
     {
+        //Abertura da Conexão
         $con = Connection::getConnection();
 
+        //Preparação da Query
         $result = $con->prepare('SELECT * FROM tb_category');
         $result->execute();
 
-        var_dump($result);
-
-        parent::render('category/list');
+        //Passa os dados para a View
+        parent::render('category/list', $result);
     }
 
     public function addAction():void

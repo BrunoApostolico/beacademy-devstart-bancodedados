@@ -31,4 +31,4 @@ $methodName = $routes[$url]['method'];
 
 (new $controllerName())->$methodName();
 
-var_dump($routes[$url]);
+//var_dump($routes[$url]);

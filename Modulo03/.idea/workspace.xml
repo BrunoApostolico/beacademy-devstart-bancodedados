@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94354aab-ae4b-4631-9acc-e553bb450cfc" name="Changes" comment="Classe Connection">
-      <change afterPath="$PROJECT_DIR$/projeto-final/config/routes.php" afterDir="false" />
+    <list default="true" id="62c2d80e-71b7-4a26-93ce-48cbd8507053" name="Changes" comment="Query de Produtos ok">
+      <change beforePath="$PROJECT_DIR$/.idea/Modulo03.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Modulo03.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projeto-final/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/projeto-final/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projeto-final/src/Controller/AbstractController.php" beforeDir="false" afterPath="$PROJECT_DIR$/projeto-final/src/Controller/AbstractController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projeto-final/src/Controller/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/projeto-final/src/Controller/CategoryController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projeto-final/src/View/category/list.php" beforeDir="false" afterPath="$PROJECT_DIR$/projeto-final/src/View/category/list.php" afterDir="false" />
     </list>
@@ -13,7 +14,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true">
     <pharConfigPath>$PROJECT_DIR$/projeto-final/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -28,21 +29,19 @@
       <path value="$PROJECT_DIR$/projeto-final/vendor/composer" />
     </include_path>
   </component>
-  <component name="ProjectId" id="2AFiWjAoHqwglQ1wRH5awPJzjAs" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2AH5l2Y3kMPYA65NEqfz5Z4NDbH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.appearance&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -51,88 +50,35 @@
     ]
   }
 }</component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\bruno.silva\Documents\GitHub\beacademy-devstart-bancodedados\Modulo03\aula01" />
-    </key>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="94354aab-ae4b-4631-9acc-e553bb450cfc" name="Changes" comment="" />
-      <created>1654611767881</created>
+      <changelist id="62c2d80e-71b7-4a26-93ce-48cbd8507053" name="Changes" comment="" />
+      <created>1654653817458</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1654611767881</updated>
-      <workItem from="1654611769952" duration="9956000" />
-      <workItem from="1654624329094" duration="2592000" />
-      <workItem from="1654639506727" duration="52000" />
-      <workItem from="1654775119215" duration="7116000" />
+      <updated>1654653817458</updated>
+      <workItem from="1654653818820" duration="4299000" />
+      <workItem from="1654740961893" duration="2029000" />
+      <workItem from="1654908801911" duration="2635000" />
+      <workItem from="1654911519608" duration="350000" />
+      <workItem from="1654912362249" duration="3494000" />
     </task>
-    <task id="LOCAL-00001" summary="Introdução a Banco de Dados">
-      <created>1654613828543</created>
+    <task id="LOCAL-00001" summary="Dados dos Produtos">
+      <created>1654658186123</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1654613828543</updated>
+      <updated>1654658186123</updated>
     </task>
-    <task id="LOCAL-00002" summary="Insert">
-      <created>1654615451437</created>
+    <task id="LOCAL-00002" summary="Query de Produtos ok">
+      <created>1654743004942</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1654615451437</updated>
+      <updated>1654743004942</updated>
     </task>
-    <task id="LOCAL-00003" summary="Unique">
-      <created>1654616380477</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1654616380477</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Chave Primária">
-      <created>1654616890642</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1654616890642</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Crud">
-      <created>1654617929218</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1654617929218</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Categoria">
-      <created>1654618988601</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1654618988601</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Product">
-      <created>1654622644289</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1654622644289</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Cadastro de Produtos em desenvolvimento">
-      <created>1654639532233</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1654639532233</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Classe Connection">
-      <created>1654793020933</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1654793020933</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,15 +96,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Introdução a Banco de Dados" />
-    <MESSAGE value="Insert" />
-    <MESSAGE value="Unique" />
-    <MESSAGE value="Chave Primária" />
-    <MESSAGE value="Crud" />
-    <MESSAGE value="Categoria" />
-    <MESSAGE value="Product" />
-    <MESSAGE value="Cadastro de Produtos em desenvolvimento" />
-    <MESSAGE value="Classe Connection" />
-    <option name="LAST_COMMIT_MESSAGE" value="Classe Connection" />
+    <MESSAGE value="Dados dos Produtos" />
+    <MESSAGE value="Query de Produtos ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="Query de Produtos ok" />
   </component>
 </project>
