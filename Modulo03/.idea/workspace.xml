@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62c2d80e-71b7-4a26-93ce-48cbd8507053" name="Changes" comment="Listar Dados Categorias">
+    <list default="true" id="62c2d80e-71b7-4a26-93ce-48cbd8507053" name="Changes" comment="Cadastrar Dados Categorias">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto-final/config/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/projeto-final/config/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto-final/db/db_store.sql" beforeDir="false" afterPath="$PROJECT_DIR$/projeto-final/db/db_store.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto-final/src/Controller/AbstractController.php" beforeDir="false" afterPath="$PROJECT_DIR$/projeto-final/src/Controller/AbstractController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto-final/src/Controller/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/projeto-final/src/Controller/CategoryController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto-final/src/View/category/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/projeto-final/src/View/category/add.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projeto-final/src/Connection/Connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/projeto-final/src/Connection/Connection.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +58,7 @@
       <workItem from="1654740961893" duration="2029000" />
       <workItem from="1654908801911" duration="2635000" />
       <workItem from="1654911519608" duration="350000" />
-      <workItem from="1654912362249" duration="5511000" />
+      <workItem from="1654912362249" duration="6489000" />
     </task>
     <task id="LOCAL-00001" summary="Dados dos Produtos">
       <created>1654658186123</created>
@@ -85,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654917056879</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Cadastrar Dados Categorias">
+      <created>1654921519650</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1654921519650</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +109,7 @@
     <MESSAGE value="Dados dos Produtos" />
     <MESSAGE value="Query de Produtos ok" />
     <MESSAGE value="Listar Dados Categorias" />
-    <option name="LAST_COMMIT_MESSAGE" value="Listar Dados Categorias" />
+    <MESSAGE value="Cadastrar Dados Categorias" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cadastrar Dados Categorias" />
   </component>
 </project>
