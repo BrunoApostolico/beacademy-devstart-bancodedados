@@ -14,7 +14,7 @@ CREATE TABLE tb_product (
     name VARCHAR (30) NOT NULL ,
     description VARCHAR (100) NOT NULL ,
     photo VARCHAR(255) NOT NULL ,
-    valor FLOAT (10,2) NOT NULL ,
+    value FLOAT (10,2) NOT NULL ,
     category_id INT(11) NOT NULL,
     quantity INT(5) NOT NULL,
     created_at DATETIME NOT NULL
@@ -34,7 +34,7 @@ SHOW TABLES ;
 
 SET @@global.sql_mode= 'NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION';
 
-INSERT INTO tb_product (name, description, photo, valor, category_id, quantity, created_at) VALUES
+INSERT INTO tb_product (name, description, photo, value, category_id, quantity, created_at) VALUES
 ('PC Desktop','Computador para uso pessoal','https://docs.microsoft.com/pt-br/windows-hardware/design/images/desktop.png',3700,1,8,'2022-06-08'),
 ('Computador gamer','Computador para jogos','https://a-static.mlcdn.com.br/1500x1500/pc-gamer-completo-a4-3-9ghz-8gb-fury-500gb-monitor-19-imperiums/lojaoficialimperiums/16650/4f93ca7f9ebe7c52870b45ca56b334a1.jpg',6500,1,5,'2022-06-08'),
 ('Notebook','Computador portátil','https://a-static.mlcdn.com.br/280x210/notebook-samsung-book-intel-core-i5-8gb-256gb-ssd-156-full-hd-windows-11/magazineluiza/234099300/1dae9242b5dd61a5736f155930b95ebf.jpg',4500,1,7,'2022-06-08'),
