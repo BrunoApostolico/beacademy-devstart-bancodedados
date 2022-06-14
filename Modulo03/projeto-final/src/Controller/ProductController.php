@@ -21,7 +21,12 @@ class ProductController extends AbstractController
 
     public function addAction():void
     {
-        parent::render('product/add');
+        $con = Connection::getConnection();
+
+        $result = $con->prepare('SELECT * FROM tb_category');
+        $result->execute();
+
+        parent::render('product/add', $result);
     }
 
     public function editAction():void

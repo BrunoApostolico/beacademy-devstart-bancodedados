@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62c2d80e-71b7-4a26-93ce-48cbd8507053" name="Changes" comment="Melhorias Visuais">
-      <change beforePath="$PROJECT_DIR$/projeto-final/db/db_store.sql" beforeDir="false" afterPath="$PROJECT_DIR$/projeto-final/db/db_store.sql" afterDir="false" />
+    <list default="true" id="62c2d80e-71b7-4a26-93ce-48cbd8507053" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b8ca8834-3222-4684-a5e3-071b10b6d3db.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b8ca8834-3222-4684-a5e3-071b10b6d3db.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projeto-final/src/Controller/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/projeto-final/src/Controller/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projeto-final/src/View/_partials/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/projeto-final/src/View/_partials/head.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projeto-final/src/View/product/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/projeto-final/src/View/product/add.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projeto-final/src/View/product/list.php" beforeDir="false" afterPath="$PROJECT_DIR$/projeto-final/src/View/product/list.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
