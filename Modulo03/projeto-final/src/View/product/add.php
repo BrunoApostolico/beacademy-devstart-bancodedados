@@ -9,7 +9,7 @@
         <?php
             while ($category = $data->fetch(\PDO::FETCH_ASSOC)){
                 extract($category);
-                echo "<option value='{$id}'>{name}</option>";
+                echo "<option value='{$id}'>{$name}</option>";
             }
         ?>
 
@@ -21,13 +21,13 @@
     <label for="description">Descrição</label>
     <textarea id="description" name="description" class="form-control mb-3"></textarea>
 
-    <label for="value">Nome</label>
+    <label for="value">Valor</label>
     <input type="text" id="value" name="value" class="form-control mb-3">
 
-    <label for="quantity">Nome</label>
+    <label for="quantity">Quantidade</label>
     <input type="text" id="quantity" name="quantity" class="form-control mb-3">
 
-    <label for="photo">Nome</label>
+    <label for="photo">Foto</label>
     <input type="text" id="photo" name="photo" class="form-control mb-3">
 
     <button class="btn btn-primary">Enviar</button>
