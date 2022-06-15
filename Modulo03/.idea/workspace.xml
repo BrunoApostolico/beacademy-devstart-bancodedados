@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62c2d80e-71b7-4a26-93ce-48cbd8507053" name="Changes" comment="">
+    <list default="true" id="62c2d80e-71b7-4a26-93ce-48cbd8507053" name="Changes" comment="Editando o Produto em andamento">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto-final/config/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/projeto-final/config/routes.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projeto-final/src/Controller/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/projeto-final/src/Controller/ProductController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto-final/src/View/product/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/projeto-final/src/View/product/edit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto-final/src/View/product/list.php" beforeDir="false" afterPath="$PROJECT_DIR$/projeto-final/src/View/product/list.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +63,8 @@
       <workItem from="1654912362249" duration="6587000" />
       <workItem from="1654948674886" duration="9210000" />
       <workItem from="1655080662852" duration="3193000" />
-      <workItem from="1655295671826" duration="5135000" />
+      <workItem from="1655295671826" duration="5895000" />
+      <workItem from="1655332409434" duration="3626000" />
     </task>
     <task id="LOCAL-00001" summary="Dados dos Produtos">
       <created>1654658186123</created>
@@ -124,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655081542911</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Editando o Produto em andamento">
+      <created>1655326881706</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1655326881706</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +155,7 @@
     <MESSAGE value="Excluir Dados Categoria" />
     <MESSAGE value="Editar Dados Categoria" />
     <MESSAGE value="Melhorias Visuais" />
-    <option name="LAST_COMMIT_MESSAGE" value="Melhorias Visuais" />
+    <MESSAGE value="Editando o Produto em andamento" />
+    <option name="LAST_COMMIT_MESSAGE" value="Editando o Produto em andamento" />
   </component>
 </project>

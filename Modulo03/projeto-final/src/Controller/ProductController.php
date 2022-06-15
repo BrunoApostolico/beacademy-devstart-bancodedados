@@ -70,7 +70,10 @@ class ProductController extends AbstractController
                    quantity = '{$quantity}'
                 WHERE id='{$id}'
                    ";
+$resultUpdate = $con->prepare($query);
+$resultUpdate->execute();
 
+echo 'Pronto, produto atualizado';
         }
 
         $product = $con->prepare("SELECT * FROM tb_product WHERE id='{$id}'");
