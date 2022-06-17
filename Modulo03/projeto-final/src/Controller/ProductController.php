@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace App\Controller;
 
 use App\Connection\Connection;
+use Dompdf\Dompdf;
 
 class ProductController extends AbstractController
 {
@@ -96,5 +97,16 @@ echo 'Pronto, produto atualizado';
         $message = 'Pronto, produto excluído.';
 
         include dirname(__DIR__).'/View/_partials/message.php';
+    }
+    public function reportAction(): void
+    {
+        $html = "<h1>Relatório</h1>";
+
+        $pdf = new Dompdf();
+        $pdf->loadHtml($html);
+        $pdf->render();
+        $pdf->stream();
+
+
     }
 }
