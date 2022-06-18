@@ -14,7 +14,8 @@
 <body class="container" style="background-color: #EFEFEF;">
 
 <nav class="mt-3">
-    <a href="/" class="btn btn-outline-dark">Início</a>
+    <a href="/login" class="btn btn-dark">Admin</a>
+    <a href="/home" class="btn btn-outline-dark">Início</a>
     <a href="/categorias" class="btn btn-outline-dark">Categorias</a>
     <a href="/produtos" class="btn btn-outline-dark">Produtos</a>
 </nav>

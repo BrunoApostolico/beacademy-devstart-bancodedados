@@ -98,11 +98,13 @@ echo 'Pronto, produto atualizado';
 
         include dirname(__DIR__).'/View/_partials/message.php';
     }
+
     public function reportAction(): void
     {   $con= Connection::getConnection();
 
         $result = $con->prepare('SELECT prod.id, prod.name, prod.quantity, cat.name as category FROM tb_product prod 
         INNER JOIN tb_category cat ON prod.category_id = cat.id');
+
         $result->execute();
         $content ='';
 

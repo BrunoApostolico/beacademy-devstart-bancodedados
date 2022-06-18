@@ -14,7 +14,10 @@ function createRoute(string $controllerName, string $methodName) {
 }
 
 $routes = [
-    '/' => createRoute(IndexController::class, 'indexAction'),
+    '/' => createRoute(IndexController::class, 'LoginAction'),
+    '/home' => createRoute(IndexController::class,'IndexAction'),
+    '/login' => createRoute(IndexController::class,'LoginAction'),
+
     '/produtos' => createRoute(ProductController::class,'listAction'),
     '/produtos/novo' => createRoute(ProductController::class,'addAction'),
     '/produtos/excluir' => createRoute(ProductController::class,'removeAction'),
