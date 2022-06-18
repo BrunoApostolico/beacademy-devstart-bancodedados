@@ -1,23 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62c2d80e-71b7-4a26-93ce-48cbd8507053" name="Changes" comment="Editando o Produto">
-      <change afterPath="$PROJECT_DIR$/projeto-final/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projeto-final/vendor/composer/InstalledVersions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projeto-final/vendor/composer/installed.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projeto-final/vendor/composer/installed.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Modulo03.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Modulo03.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="62c2d80e-71b7-4a26-93ce-48cbd8507053" name="Changes" comment="Instalação e Configuração do DomPdf">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto-final/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/projeto-final/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto-final/composer.phar" beforeDir="false" afterPath="$PROJECT_DIR$/projeto-final/composer.phar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto-final/config/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/projeto-final/config/routes.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projeto-final/src/Controller/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/projeto-final/src/Controller/ProductController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto-final/src/View/product/list.php" beforeDir="false" afterPath="$PROJECT_DIR$/projeto-final/src/View/product/list.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto-final/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/projeto-final/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto-final/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/projeto-final/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto-final/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/projeto-final/vendor/composer/autoload_real.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto-final/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/projeto-final/vendor/composer/autoload_static.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +75,8 @@
       <workItem from="1655466776226" duration="203000" />
       <workItem from="1655467818266" duration="618000" />
       <workItem from="1655468457594" duration="35000" />
-      <workItem from="1655483220733" duration="317000" />
+      <workItem from="1655483220733" duration="437000" />
+      <workItem from="1655499523915" duration="3578000" />
     </task>
     <task id="LOCAL-00001" summary="Dados dos Produtos">
       <created>1654658186123</created>
@@ -161,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655336279555</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Instalação e Configuração do DomPdf">
+      <created>1655483614938</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1655483614938</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +184,7 @@
     <MESSAGE value="Melhorias Visuais" />
     <MESSAGE value="Editando o Produto em andamento" />
     <MESSAGE value="Editando o Produto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Editando o Produto" />
+    <MESSAGE value="Instalação e Configuração do DomPdf" />
+    <option name="LAST_COMMIT_MESSAGE" value="Instalação e Configuração do DomPdf" />
   </component>
 </project>

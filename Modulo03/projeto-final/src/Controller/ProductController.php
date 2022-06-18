@@ -99,14 +99,46 @@ echo 'Pronto, produto atualizado';
         include dirname(__DIR__).'/View/_partials/message.php';
     }
     public function reportAction(): void
-    {
-        $html = "<h1>Relatório</h1>";
+    {   $con= Connection::getConnection();
+
+        $result = $con->prepare('SELECT prod.id, prod.name, prod.quantity, cat.name FROM tb_product prod INNER JOIN tb_category cat ON prod.');
+        $result->execute();
+        $content ='';
+
+        while ($product = $result->fetch(\PDO::FETCH_ASSOC)){
+            extract($product);
+
+            $content .= "
+            <tr>
+            <td>{$id}</td>
+            <td>{$name}</td>
+            <td>{$quantity}</td>
+            </tr>
+            ";
+        }
+
+        $html = "
+<h1>Relatório de Produtos no Estoque</h1>
+<table border='1' width='100%'>
+<thead>
+<tr>
+<th>#ID</th>
+<th>Nome</th>
+<th>Quantidade</th>
+</tr>
+</thead>
+<tbody>
+
+</tbody>
+</table>
+
+
+
+";
 
         $pdf = new Dompdf();
         $pdf->loadHtml($html);
         $pdf->render();
         $pdf->stream();
-
-
     }
 }
