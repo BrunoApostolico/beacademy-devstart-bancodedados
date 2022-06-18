@@ -2,8 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62c2d80e-71b7-4a26-93ce-48cbd8507053" name="Changes" comment="Instalação e Configuração do DomPdf">
+      <change afterPath="$PROJECT_DIR$/projeto-final/vendor/composer.phar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projeto-final/vendor/composer/platform_check.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Modulo03.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Modulo03.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b8ca8834-3222-4684-a5e3-071b10b6d3db.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b8ca8834-3222-4684-a5e3-071b10b6d3db.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projeto-final/src/Controller/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/projeto-final/src/Controller/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projeto-final/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/projeto-final/vendor/autoload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projeto-final/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/projeto-final/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projeto-final/vendor/composer/InstalledVersions.php" beforeDir="false" afterPath="$PROJECT_DIR$/projeto-final/vendor/composer/InstalledVersions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projeto-final/vendor/composer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/projeto-final/vendor/composer/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projeto-final/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/projeto-final/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projeto-final/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/projeto-final/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projeto-final/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/projeto-final/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projeto-final/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/projeto-final/vendor/composer/autoload_real.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projeto-final/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/projeto-final/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projeto-final/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/projeto-final/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projeto-final/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/projeto-final/vendor/composer/installed.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projeto-final/vendor/dompdf/dompdf/lib/fonts/Times-Bold.afm.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,7 +30,7 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/projeto-final/composer.json</pharConfigPath>
     <execution>
-      <phar pharPath="$PROJECT_DIR$/composer.phar" interpreterId="6454b6c9-216a-4a61-9bd6-d08cde8ec1c0" />
+      <phar pharPath="$PROJECT_DIR$/composer.phar" interpreterId="6841006c-677c-4f06-8e0a-e3dc76063a43" />
     </execution>
   </component>
   <component name="Git.Settings">
@@ -25,10 +42,10 @@
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/projeto-final/vendor/composer" />
-      <path value="$PROJECT_DIR$/projeto-final/vendor/dompdf/dompdf" />
       <path value="$PROJECT_DIR$/projeto-final/vendor/phenx/php-svg-lib" />
       <path value="$PROJECT_DIR$/projeto-final/vendor/phenx/php-font-lib" />
       <path value="$PROJECT_DIR$/projeto-final/vendor/sabberworm/php-css-parser" />
+      <path value="$PROJECT_DIR$/projeto-final/vendor/dompdf/dompdf" />
     </include_path>
   </component>
   <component name="ProjectId" id="2AH5l2Y3kMPYA65NEqfz5Z4NDbH" />
@@ -55,6 +72,11 @@
     ]
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MeusProjetosGit\beacademy-devstart-bancodedados\Modulo03\projeto-final\vendor" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -77,6 +99,8 @@
       <workItem from="1655468457594" duration="35000" />
       <workItem from="1655483220733" duration="437000" />
       <workItem from="1655499523915" duration="3578000" />
+      <workItem from="1655569992603" duration="1410000" />
+      <workItem from="1655571446106" duration="1428000" />
     </task>
     <task id="LOCAL-00001" summary="Dados dos Produtos">
       <created>1654658186123</created>

@@ -6,10 +6,10 @@
       <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/projeto-final/vendor/composer" />
-      <excludeFolder url="file://$MODULE_DIR$/projeto-final/vendor/dompdf/dompdf" />
       <excludeFolder url="file://$MODULE_DIR$/projeto-final/vendor/phenx/php-svg-lib" />
       <excludeFolder url="file://$MODULE_DIR$/projeto-final/vendor/phenx/php-font-lib" />
       <excludeFolder url="file://$MODULE_DIR$/projeto-final/vendor/sabberworm/php-css-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/projeto-final/vendor/dompdf/dompdf" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
